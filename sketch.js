@@ -1,3 +1,17 @@
+var arr=[1,2,3,4,5];
+console.log(arr);
+
+var a = [[1,0,12],[7,-3,2],[-5,2,1]];
+console.log(a[0][1]);
+
+arr.push(9);
+console.log(arr);
+
+arr.pop();
+console.log(arr);
+
+console.log(arr.length);
+
 const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
